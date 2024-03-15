@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'mssql',
         'NAME': 'rennycafe-sql-db',
         'USER': 'cafeadmin',
-        'PASSWORD': 'Yingmeema1',
+        'PASSWORD': 'Az@123456',
         'HOST': 'rennycafe-sql-db-server.database.windows.net',
         'PORT': '1433',
 
