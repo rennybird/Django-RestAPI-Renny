@@ -10,4 +10,4 @@ class StoreSerializer(serializers.ModelSerializer):
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Products
-        fields = ['product_id', 'product_name']
+        fields = ['product_id', 'product_name', 'product_timestamp']

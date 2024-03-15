@@ -51,3 +51,4 @@ In settings.py set Debug = False
 Then run command
 python manage.py collectstatic
 ```
+
