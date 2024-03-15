@@ -15,12 +15,6 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 .\.venv\Scripts\activate
 ```
 
-## Check current Python path
-
-```
-where python
-```
-
 ## Install packages
 
 ```
