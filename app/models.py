@@ -19,8 +19,8 @@ class Products(models.Model):
 
 class Sales(models.Model):
     transaction_id = models.IntegerField()
-    transaction_date = models.DateField(default=timezone.now)
-    transaction_time = models.TimeField(default=timezone.now)
+    transaction_date = models.DateField(default=timezone.now, null=True)
+    transaction_time = models.TimeField(default=timezone.now, null=True)
     transaction_qty = models.IntegerField()
     unit_price = models.FloatField()
     product_category = models.CharField(max_length=100)
