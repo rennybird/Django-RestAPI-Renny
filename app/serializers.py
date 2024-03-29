@@ -14,5 +14,4 @@ class ProductSerializer(serializers.ModelSerializer):
 class SalesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sales
-        fields = ['transaction_id', 'transaction_date', 'transaction_time', 'transaction_qty', 'unit_price', 'product_category', 'product_name', 'product_detail']
-        
+        fields = ['transaction_id', 'transaction_date', 'transaction_time', 'transaction_qty', 'store_id', 'product_id',  'unit_price', 'product_category', 'product_name', 'product_detail']
